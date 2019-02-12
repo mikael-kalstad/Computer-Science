@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\bruker\Dropbox\Dataingeniør\TDAT1005 Databaser med videregående programmering\.metadata\.plugins\org.eclipse.jdt.core
+2945754643.index

@@ -1,0 +1,182 @@
+
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+        <script>
+            
+            let game;
+            function setup(){
+                createCanvas(700*0.8, 600*0.8);
+                game = new Game(7, 6);
+            }
+            
+            function draw(){
+                background(52, 152, 219);
+                game.update();
+                game.draw();
+            }
+            
+            class Tile{
+                constructor(x, y, radius){
+                    this.pos = createVector(x, y);
+                    this.playerOwnership = 0;
+                    this.radius = radius;
+                }
+                
+                draw(){
+                    noStroke();
+                    if (this.playerOwnership == 0){
+                        fill(190);
+                    }
+                    else if (this.playerOwnership == 1){
+                        fill(231, 76, 60);
+                    }
+                    else if(this.playerOwnership == -1){
+                        fill(241, 196, 15);
+                    }
+                    ellipse(this.pos.x, this.pos.y, this.radius*2, this.radius*2);
+                }
+            }
+            
+            class Game{
+                constructor(rows, cols){
+                    this.rows = rows;
+                    this.cols = cols; 
+                    this.tileRadius = width/(2.3*rows);
+                    this.playerTurn = 1;
+                    this.gameIsRunning = true;
+                    this.tiles = [];
+                    for (let i = 0; i < rows; i++){
+                        this.tiles[i] = [];
+                        for (let j = 0; j < cols; j++){
+                            this.tiles[i][j] = new Tile(i*width/rows+width/rows*0.5, j*height/cols+height/cols*0.5, this.tileRadius);
+                        }
+                    }
+                }
+                
+                draw(){
+                    fill(3, 125, 208);
+                    rect(this.getColumnClicked()*width/(this.rows), 0, width/this.rows, height);
+                    for (let i = 0; i < this.tiles.length; i++){
+                        for (let j = 0; j < this.tiles[i].length; j++){
+                            this.tiles[i][j].draw();
+                        }
+                    }
+                }
+                
+                update(){
+                    if (this.gameIsRunning){
+                        if (this.playerTurn == 1){
+                            //Wait for click
+                        }
+                        else if (this.playerTurn == -1){
+                            setTimeout(function(){
+                                game.botDrop();
+                            }, 700);
+                        
+                        }
+                        let winner = this.checkForWin();
+                        if (winner == 1){
+                            this.gameIsRunning = false;
+                            setTimeout(function(){
+                                alert("Du vant!")
+                                location.reload();
+                            }, 1000);
+                        
+                        }
+                        else if (winner == -1){
+                            this.gameIsRunning = false;
+                            setTimeout(function(){
+                                alert("Roboten vant!")
+                                location.reload();
+                            }, 1000);
+                        }
+                    }
+                }
+                
+                playerDrop(){
+                    if (this.playerTurn == 1){
+                        let column = this.getColumnClicked();
+                        console.log(column);
+                        this.dropTile(column, this.playerTurn);
+                        this.playerTurn -= 2;
+                    }
+                }
+                
+                botDrop(){
+                    if (this.playerTurn == -1){
+                        let column = this.getRandomColumn();
+                        this.dropTile(column, this.playerTurn);
+                        this.playerTurn += 2;
+                    }
+                }
+                
+                dropTile(column, player){
+                    for (let i = 0; i < this.tiles[column].length; i++){
+                        if (this.tiles[column][i+1] == undefined || this.tiles[column][i+1].playerOwnership != 0){
+                            this.tiles[column][i].playerOwnership = player;
+                            break;
+                        }
+                    }
+                }
+                
+                getColumnClicked(){
+                    return Math.floor(map(mouseX, 0, width, 0, this.tiles.length));
+                }
+                
+                getRandomColumn(){
+                    return Math.floor(Math.random()*this.tiles.length);
+                }
+                
+                checkForWin(){
+                    let winner = 0;
+                    for (let i = 0; i < this.tiles.length; i++){
+                        for (let j = 0; j < this.tiles[i].length; j++){
+                            if (this.tiles[i][j].playerOwnership != 0){
+                                for (let dirX = -1; dirX <= 1; dirX++){
+                                    for(let dirY = -1; dirY <= 1; dirY++){
+                                        if (dirX == 0 && dirY == 0){
+                                            break;
+                                        }
+                                        let count = 1;
+                                        for (let offset = 1; offset <= 3; offset++){
+                                            if (this.tiles[i + dirX*offset] != undefined && this.tiles[i + dirX*offset][j + dirY*offset] != undefined){
+                                                if (this.tiles[i + dirX*offset][j + dirY*offset].playerOwnership == this.tiles[i][j].playerOwnership){
+                                                    count++;
+                                                    //console.log("Hei");
+                                                }
+                                                else{
+                                                    break;
+                                                }
+                                            }
+                                            else{
+                                                break;
+                                            }
+                                        }
+                                        if (count == 4){
+                                            console.log("Hei");
+                                            winner = this.tiles[i][j].playerOwnership;
+                                            return winner;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    return winner;
+                }
+            }
+            
+            function mouseClicked(){
+                game.playerDrop(); 
+            }
+            
+            function touchEnded(){
+                game.playerDrop(); 
+            }
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
