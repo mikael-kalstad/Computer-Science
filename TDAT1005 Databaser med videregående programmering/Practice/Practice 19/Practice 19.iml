@@ -7,5 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="mysql-connector-java-8.0.13" level="project" />
   </component>
 </module>
