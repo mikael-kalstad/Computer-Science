@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab25ef7-44b9-4ac0-a2c9-e3ab6cb8fa8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../TDAT1004 Mattematikk 1/Differential Approximation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TDAT1004 Mattematikk 1/Differential Approximation/src/DifferentialApproximation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TDAT1004 Mattematikk 1/Java integral/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TDAT1004 Mattematikk 1/Java integral/src/IntegralApproximation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Eksamen/2019/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Eksamen/2019/src/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Eksamen/2019/src/src/Pasient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice 1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice 1/src/MyTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice 2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice 2/src/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Datateknikk/RISC- og CISC prosessorer.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Datateknikk/RISC- og CISC prosessorer.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/DTK notater eksamen høst 2018.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen 2016 Høst.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen 2017 Høst.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/1.4-virkemate.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/1.5-buss.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/1.6-primarminne.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/1.7.3-avbrudd.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/2.1-cache.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/2.2-modernePrim�rminneteknologier.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Eksamen høst kompendiumer og notater/3.1-CPUensOppbygging.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/OS notater høst eksamen 2018.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1003 Datateknikk og operativsystem/Eksamen/Prosjektøving eksamenstrening.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/.idea/libraries/mysql_connector_java_8_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/Practice 17/src/Valutaberegner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/Practice 17/src/Valutaberegner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/Practice 19/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/Practice 19/src/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/Practice 19/src/TestKlient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1005 Databaser med videregående programmering/Practice/Practice 19/src/TestKlient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Code/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Code/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Code/out/production/Code/META-INF/Code.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Sketches/Game page.bmpr" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/Sketches/Game page.bmpr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/monopolish" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT1006 Systemutvikling 1/Project/monopolish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NumArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1940">
-              <caret line="201" column="9" lean-forward="true" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="198" column="46" lean-forward="true" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -83,10 +50,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="width" value="1295" />
-    <option name="height" value="1400" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1294" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -105,6 +72,11 @@
               <item name="Practice 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice 3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Practice 3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice 3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +86,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567596807323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567681127679" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -156,18 +128,18 @@
       <workItem from="1567240127668" duration="8952000" />
       <workItem from="1567251757099" duration="598000" />
       <workItem from="1567323990794" duration="10887000" />
-      <workItem from="1567595879807" duration="1380000" />
+      <workItem from="1567595879807" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7893000" />
+    <option name="totallyTimeSpent" value="8786000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4995141" visible="true" weight="0.2007992" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4995141" visible="true" weight="0.14485514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -177,7 +149,7 @@
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23863636" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23966943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30528846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -185,7 +157,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32932693" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3264463" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32932693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -208,8 +180,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/NumArray.java</url>
-          <line>112</line>
-          <properties class="NumArray" method="partition">
+          <line>227</line>
+          <properties class="NumArray">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
@@ -231,8 +203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1940">
-          <caret line="201" column="9" lean-forward="true" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
+        <state relative-caret-position="200">
+          <caret line="198" column="46" lean-forward="true" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
         </state>
       </provider>
     </entry>
