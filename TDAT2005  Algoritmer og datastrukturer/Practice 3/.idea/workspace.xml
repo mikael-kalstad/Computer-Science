@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab25ef7-44b9-4ac0-a2c9-e3ab6cb8fa8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/api/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/api/models/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/api/models/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/api/routes/articles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/api/routes/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/test2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumArray.java" afterDir="false" />
     </list>
@@ -25,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NumArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="198" column="46" lean-forward="true" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
+            <state relative-caret-position="120">
+              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -86,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567681127679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567684276639" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -128,16 +149,15 @@
       <workItem from="1567240127668" duration="8952000" />
       <workItem from="1567251757099" duration="598000" />
       <workItem from="1567323990794" duration="10887000" />
-      <workItem from="1567595879807" duration="2273000" />
+      <workItem from="1567595879807" duration="5669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8786000" />
+    <option name="totallyTimeSpent" value="12182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4995141" visible="true" weight="0.14485514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -149,7 +169,7 @@
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23966943" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2768595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30528846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -180,7 +200,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/NumArray.java</url>
-          <line>227</line>
+          <line>231</line>
           <properties class="NumArray">
             <option name="EMULATED" value="true" />
           </properties>
@@ -203,8 +223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="198" column="46" lean-forward="true" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
+        <state relative-caret-position="120">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -84,19 +84,22 @@ public class NumArray {
 
         // Selection sort
         if (h-l <= breakPoint) {
-            int min;
-            for (int i = l; i <= h; i++) {
-                min = i;
-                for (int j = i+1; j <= h; j++) {
-                    // Check if element is smaller and set min accordingly
-                    if (arr[j] < arr[min]) min = j;
-                }
+            // Index error check
+            //if (l < 0 || h > arr.length || l > h) return;
 
-                // Swap element with min, if min is not the same as current element
-                if (min != i) {
-                    int temp = arr[i];
-                    arr[i] = arr[min];
-                    arr[min] = temp;
+            int j;
+            for (int i = l; i <= h; i++) {
+                j = i;
+
+                // Swap elements to the left while they are smaller
+                // and not the first item in the list
+                while (j > l && arr[j-1] > arr[j]) {
+                    // Switch positions
+                    int temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
+
+                    j--;
                 }
             }
             return;
@@ -199,8 +202,7 @@ public class NumArray {
 
         // Fill array with random numbers within given range
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int)(Math.random()*numRange-numRange/2);
-            arr2[i] = (int)(Math.random()*numRange-numRange/2);
+            arr[i] = arr2[i] = (int)(Math.random()*numRange-numRange/2);
         }
 
         //int[] arr2 = {1, 0, -3, -3, 2, 0, 0, 4, -2, -4};
