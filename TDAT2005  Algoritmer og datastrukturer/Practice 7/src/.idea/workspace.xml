@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f7e5788-14f4-4090-bac7-0cc84d7cd7cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../TDAT2001 Realfag for dataingeniører/Sannsynlighet/Practice 3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../TDAT2001 Realfag for dataingeniører/Sannsynlighet/Practice 3/src/Probability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 12 - Compression/src/BitString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 12 - Compression/src/HuffmanEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 12 - Compression/src/HuffmanNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 12 - Compression/src/HuffmanSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 12 - Compression/src/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 4/src/SyntaxChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 4/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 4/src/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 4/src/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 5/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 5/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 5/src/HashTable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopoSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topoSort.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 8/src/Bfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 8/src/Edmond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 8/src/graf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 8/src/graf2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice 8/src/graf3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT1005 Databaser med videregående programmering/Practice/Practice 11/~WRL2984.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/cars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/finance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/food.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/health.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/sport.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/technology.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/categories/travel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/flame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/flame2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/icons/refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/rainforest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/articleCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/feed/newsFeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/feed/newsFeedCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/floatButton/floatButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/pages/add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/pages/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/pages/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/sideNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/components/timeFormat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/firenews/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/FireNews/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/Practice 3/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/Practice 3/models/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/Practice 3/models/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TDAT2003 Systemutvikling 2 med web-prosjekt/Practice 3/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 3/out/production/Practice 3/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice 3/out/production/Practice 3/NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 3/src/NumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice 3/src/NumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice 11 - Grammar and automatas/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/Practice 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/out/production/Practice 4/CircularList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/out/production/Practice 4/Josephus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/out/production/Practice 4/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice 4/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice 4/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDAT2005  Algoritmer og datastrukturer.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1TSwDerV4pReiJ4a49t8NKDXc58" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f7e5788-14f4-4090-bac7-0cc84d7cd7cd" name="Default Changelist" comment="" />
+      <created>1573466686828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573466686828</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
