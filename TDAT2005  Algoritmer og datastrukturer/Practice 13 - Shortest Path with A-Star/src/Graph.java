@@ -15,6 +15,44 @@ public class Graph {
     public int getNumOfEdges() { return num_of_edges; }
     public Node[] getNodes() { return nodes; }
 
+    /**
+     * Find index to node in graph if it exists
+     *
+     * @param target - Node to look for in graph
+     * @return positive integer if node found | -1 if node not found
+     */
+    public int getNodeIndex(Node target) {
+        // Check all nodes in graph for match
+        for (int i = 0; i < nodes.length; i++) {
+            // If not is found, return index
+            if(nodes[i].equals(target)) return i;
+        }
+
+        // Node not found
+        return -1;
+    }
+
+    /**
+     * Find node with data
+     *
+     * @param b - breddegrad
+     * @param l - lengdegrad
+     * @return Node found
+     */
+    public Node findNode(double b, double l) {
+        // Go through all nodes in graph
+        for (Node n : nodes) {
+            double[] data = n.getData();
+
+            // Check if breddegrad and lengdegrad is the same in node
+            if (data[0] == b && data[1] == l)
+                return n;
+        }
+
+        // Node not found
+        return null;
+    }
+
     private void readNodesFromFile(String filePath) {
         try {
             // Open buffer reader for file
@@ -100,8 +138,9 @@ public class Graph {
     }
 
     public static void main(String[] args) {
-        String filePathNodes = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\island\\nodes.txt";
-        String filePathEdges = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\island\\edges.txt";
+        String folder = "island";
+        String filePathNodes = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\nodes.txt";
+        String filePathEdges = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\edges.txt";
 
         Graph g = new Graph(filePathNodes, filePathEdges);
 
@@ -116,6 +155,24 @@ public class Graph {
             for (Edge e : edges) {
                 System.out.println("    From: " + e.getFrom().getIndex() + ", To: " + e.getTo().getIndex());
             }
+        }
+
+
+        Node start = g.findNode(65.6107182, -16.9173984);
+        Node end = g.findNode(64.1799834, -15.7803991);
+        //Node start = g.findNode(11, 11);
+        //Node end = g.findNode(22, 22);
+
+        System.out.println("Start index: " + start.getIndex());
+        System.out.println("End index: " + end.getIndex());
+        System.out.println("RUNNING...");
+        Node[] path = Dijkstra.shortestPath(g, start, end);
+
+
+        System.out.println("Path: ");
+        for (Node n : path) {
+            //System.out.print(n.getIndex() + ", ");
+            System.out.println(n.getData()[0] + ", " + n.getData()[1]);
         }
     }
 }
