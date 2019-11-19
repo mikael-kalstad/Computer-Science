@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Graph {
     private int num_of_nodes;
@@ -138,13 +139,13 @@ public class Graph {
     }
 
     public static void main(String[] args) {
-        String folder = "island";
+        String folder = "norden";
         String filePathNodes = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\nodes.txt";
         String filePathEdges = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\edges.txt";
 
         Graph g = new Graph(filePathNodes, filePathEdges);
 
-        Node[] nodes = g.getNodes();
+        /*Node[] nodes = g.getNodes();
 
         for (int i = 0; i < 5; i++) {
             double[] data = nodes[i].getData();
@@ -155,24 +156,16 @@ public class Graph {
             for (Edge e : edges) {
                 System.out.println("    From: " + e.getFrom().getIndex() + ", To: " + e.getTo().getIndex());
             }
-        }
+        }*/
 
+        Node[] path = Dijkstra.shortestPath(g, 2460904	, 5009078	);
+        Node[] path2 = AStar.shortestPath(g, 2460904	, 5009078	);
 
-        Node start = g.findNode(65.6107182, -16.9173984);
-        Node end = g.findNode(64.1799834, -15.7803991);
-        //Node start = g.findNode(11, 11);
-        //Node end = g.findNode(22, 22);
-
-        System.out.println("Start index: " + start.getIndex());
-        System.out.println("End index: " + end.getIndex());
-        System.out.println("RUNNING...");
-        Node[] path = Dijkstra.shortestPath(g, start, end);
-
-
+        if (Arrays.equals(path, path2)) System.out.println("\nPaths are similar!");
         System.out.println("Path: ");
-        for (Node n : path) {
+        //for (Node n : path) {
             //System.out.print(n.getIndex() + ", ");
-            System.out.println(n.getData()[0] + ", " + n.getData()[1]);
-        }
+            //System.out.println(n.getData()[1] + ", " + n.getData()[0]);
+        //}
     }
 }
