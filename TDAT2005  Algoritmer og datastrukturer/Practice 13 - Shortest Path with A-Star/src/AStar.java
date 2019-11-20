@@ -115,7 +115,8 @@ public class AStar {
         Collections.reverse(path);
 
         long totalTime = System.currentTimeMillis() - startTime;
-        System.out.println("\nA* algorithm: " + "\nNodes processed: " + nodes_processed + "\nTotal driving time: " + totalDistance + "\nTime used: " + totalTime / 1000.0 + "s");
+        String drivingTime = String.format("%02d:%02d:%02d",(totalDistance/100/3600), ((totalDistance/100 % 3600)/60), (totalDistance/100 % 60));
+        System.out.println("\nA* algorithm: " + "\nNodes processed: " + nodes_processed + "\nTotal driving time: " + drivingTime + "\nTime used: " + totalTime / 1000.0 + "s");
         //System.out.println("Time used finding actual distance: " + totalTime2/1000.0 + "s");
 
         // Convert arrayList to array and return it
@@ -130,7 +131,7 @@ public class AStar {
         l1 = toRad(l1);
         l2 = toRad(l2);
 
-        return (int) (2*EARTH_RADIUS*Math.asin(
+        return (int) (2*EARTH_RADIUS/130*3600*100*Math.asin(
                     Math.sqrt(
                         Math.pow(Math.sin((b1-b2)/2), 2) +
                         Math.cos(b1)*Math.cos(b2)*

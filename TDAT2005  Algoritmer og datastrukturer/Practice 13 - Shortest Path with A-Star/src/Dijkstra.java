@@ -1,3 +1,4 @@
+import java.time.format.DateTimeFormatterBuilder;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.StreamSupport;
@@ -108,7 +109,8 @@ public class Dijkstra {
         Collections.reverse(path);
 
         long totalTime = System.currentTimeMillis() - startTime;
-        System.out.println("Dijkstras algorithm: " + "\nNodes processed: " + nodes_processed + "\nTotal driving time: " + totalDistance + "\nTime used: " + totalTime/1000.0 + "s");
+        String drivingTime = String.format("%02d:%02d:%02d",(totalDistance/100/3600), ((totalDistance/100 % 3600)/60), (totalDistance/100 % 60));
+        System.out.println("Dijkstras algorithm: " + "\nNodes processed: " + nodes_processed + "\nTotal driving time: " + drivingTime + "\nTime used: " + totalTime/1000.0 + "s");
 
         // Convert arrayList to array and return it
         return path.toArray(new Node[0]);

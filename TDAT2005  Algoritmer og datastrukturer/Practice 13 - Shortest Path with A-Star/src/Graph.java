@@ -6,10 +6,13 @@ public class Graph {
     private int num_of_nodes;
     private int num_of_edges;
     private Node[] nodes;
+    private ArrayList<String> names = new ArrayList<>();
 
-    public Graph(String filePathNodes, String filePathEdges) {
+
+    public Graph(String filePathNodes, String filePathEdges, String filePathNames) {
         readNodesFromFile(filePathNodes);
         readEdgesFromFile(filePathEdges);
+        readNamesFromFile(filePathNames);
     }
 
     public int getNumOfNodes() { return num_of_nodes; }
@@ -52,6 +55,14 @@ public class Graph {
 
         // Node not found
         return null;
+    }
+
+    private String findNameOfNode(int index) {
+        for (int i = 0; i < names.size(); i++) {
+            if (i%2 == 0 && Integer.parseInt(names.get(i)) == index)
+                return names.get(i+1);
+        }
+        return "Name not found";
     }
 
     private void readNodesFromFile(String filePath) {
@@ -138,12 +149,48 @@ public class Graph {
         }
     }
 
+    public void readNamesFromFile(String filePath) {
+        try {
+            // Open buffer reader for file
+            File file = new File(filePath);
+            BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+
+            String currLine;
+
+            currLine = br.readLine();
+
+            // Read the rest of the lines in the file
+            while((currLine = br.readLine()) != null) {
+                // Split current line with spaces
+                String[] lineArr = currLine.split("\\s+");
+
+                // Get data from line
+                String index = String.valueOf(lineArr[0]);
+                String name = String.valueOf(lineArr[2]);
+
+                // Add to list
+                names.add(index);
+                names.add(name);
+            }
+        }
+
+        catch (FileNotFoundException e) {
+            System.out.println("Names file not found. Check if path to file is correct. Should be an absolute path, not relative!");
+            e.printStackTrace();
+        }
+
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args) {
         String folder = "norden";
         String filePathNodes = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\nodes.txt";
         String filePathEdges = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\edges.txt";
+        String filePathNames = "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\data\\" + folder + "\\names.txt";
 
-        Graph g = new Graph(filePathNodes, filePathEdges);
+        Graph g = new Graph(filePathNodes, filePathEdges, filePathNames);
 
         /*Node[] nodes = g.getNodes();
 
@@ -158,14 +205,24 @@ public class Graph {
             }
         }*/
 
-        Node[] path = Dijkstra.shortestPath(g, 2460904	, 5009078	);
-        Node[] path2 = AStar.shortestPath(g, 2460904	, 5009078	);
+        int start = 5709083;
+        int end = 5108028;
+
+        String from = g.findNameOfNode(start);
+        String to = g.findNameOfNode(end);
+
+        System.out.println("Finding path from " + from  + " to " + to + "\n");
+
+        Node[] path = Dijkstra.shortestPath(g, start, end);
+        Node[] path2 = AStar.shortestPath(g, start, end);
 
         if (Arrays.equals(path, path2)) System.out.println("\nPaths are similar!");
-        System.out.println("Path: ");
-        //for (Node n : path) {
+        System.out.println("Path: " + path2.length);
+
+        KMLFormatter.writeToFile(path, "C:\\Skole\\Computer-Science\\TDAT2005  Algoritmer og datastrukturer\\Practice 13 - Shortest Path with A-Star\\src\\path.kml");
+        for (Node n : path) {
             //System.out.print(n.getIndex() + ", ");
             //System.out.println(n.getData()[1] + ", " + n.getData()[0]);
-        //}
+        }
     }
 }
