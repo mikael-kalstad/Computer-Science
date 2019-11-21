@@ -205,8 +205,8 @@ public class Graph {
             }
         }*/
 
-        int start = 5709083;
-        int end = 5108028;
+        int start = 2617841;
+        int end = 1491126;
 
         String from = g.findNameOfNode(start);
         String to = g.findNameOfNode(end);
