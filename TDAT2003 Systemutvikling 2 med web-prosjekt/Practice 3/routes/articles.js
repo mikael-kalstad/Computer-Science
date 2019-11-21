@@ -31,7 +31,7 @@ router.post('/add', async (req, res) => {
         content: req.body.content,
         date: Date.now(),
         summary: req.body.summary,
-        img: req.body.img,
+        img: req.body.img || 'no image',
         frontPage: req.body.frontPage
     });
 
